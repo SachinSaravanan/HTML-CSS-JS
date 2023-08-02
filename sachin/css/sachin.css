@@ -1,0 +1,89 @@
+
+body{
+   background-color:powderblue;
+   border:6px solid black;
+}
+h1{text-align:center}
+p{font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:20px;}
+
+a:link {
+ color: green;
+ background-color: transparent;
+ text-decoration: none;
+}     
+a:visited {
+ color: pink;
+ background-color: red;
+ text-decoration: none;
+}
+a:hover {
+ color: red;
+ background-color:black;
+ text-decoration: none;
+}
+a:active {
+ color: rgb(12, 12, 7);
+ background-color:rgb(167, 118, 167);
+ text-decoration: none;
+}
+.sachin {
+ font-family: arial, sans-serif;
+ width: 100%;
+}
+
+ .sachin th, td {
+ border: 1px solid #1b1818;
+text-align: left;
+ padding: 6px;
+
+}  
+
+.sachin tr:nth-child(even) {
+ background-color: #dddddd;
+
+}
+.sachin th,.sachin td {
+ border: 1px solid black;
+ background-color: rgb(216, 202, 198);
+  border-radius: 10px;
+  border-style:dashed;
+  border-color:blue;
+}
+table, td,th {
+ border: 1px solid black;
+ border-collapse: collapse;
+ width: 200px;
+ height: 50px;
+}
+   .lucifer {
+   background-color: #76e4e4
+   } 
+   .lucifer tr {
+ border-bottom: 10px solid #ddd; 
+  }
+  .ktm tr:nth-child(even):nth-child(even) {
+ background-color: rgba(156, 240, 240, 0.4);
+}
+
+.lucifer tr:nth-child(odd) {
+ background-color: rgba(150, 212, 212, 0.4);
+}
+tr:hover {background-color: #d34b96;}
+
+h1{font-size: 60px;
+ color: rgb(89, 45, 211);}
+.Rao{
+ font-size: 40px;
+ color: rgb(214, 55, 55);
+}
+#MT{
+ background-color: rgb(176, 187, 190);
+ color: black;
+ padding: 20px;
+ text-align: center;
+} 
+.Apj{font-size: 120%;
+ color: red;}
+
+
+               

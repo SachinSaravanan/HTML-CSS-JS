@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+*{ 
+    box-sizing:border-box;
+}
+
+
+body{font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+  background-color: #0e0101;
+  padding:20px;
+  text-align:center;
+  font: size 35px;
+  color: antiquewhite;
+} 
+nav{
+  float:left;
+  width: 30%;
+  height: 350px;
+  background:#da3b95;
+  padding: 10px;
+}
+nav ul {list-style-type:none;
+padding:0px;
+}
+article{float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #b63737;
+  height: 350px;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer{background-color: black;
+       padding: 10px;
+        text-align: center;
+    color: antiquewhite;}
+    @media (max-width: 600px){
+  nav, article {
+    width: 100%;
+    height: auto;
+  } 
+  }
+
+</style>
+<body>
+<h2>Layout</h2>
+    <header>
+      <h2>Animals</h2>
+    </header>
+    <section>
+      <nav>
+    <ul>
+     <li><a href="#">Lion</a></li>
+     <li><a href="#">Tiger</a></li>
+     <li><a href="#">Cheetha</a></li>
+     </ul>
+    </nav>
+    <article>
+      <h2>lion</h2>
+      <p>The lion is a large cat of the genus Panthera native to Africa and India. It has a muscular, broad-chested body; short, rounded head; round ears; and a hairy tuft at the end of its tail.</p>
+    </article>
+    </section>
+    <footer>
+      <p>The King of Animals</p>
+    </footer>
+    </body>
+    </html>

@@ -1,5 +1,5 @@
 body{
-    background-image:none;
+    background-image:url(https://as1.ftcdn.net/v2/jpg/01/23/62/98/1000_F_123629855_kIYTyEbmgl0Jpo7aeKFeKFIyfkrxtmqT.jpg);
     margin:0px;
 }
 
@@ -15,9 +15,10 @@ div{width:400px;
         text-shadow: 2px 2px 5px red;
         text-align: center;}
         form.sign{
-            background-color: aqua;
+        
             border: 2px solid black;
             border-radius: 12px;
+            height: 445px;
         
         }
     .thams
@@ -29,7 +30,7 @@ div{width:400px;
     p{
         text-align: center;
     }
-   button.nan{background-color: rgb(255, 123, 0);
+   button.nan{
         float: right;
         padding: 5px;
         border: 3px solid black;
@@ -43,3 +44,18 @@ div{width:400px;
     height: 400px;
     
     }
+    nav{    background-color: black;
+        display: block;
+        height: 43px;
+    margin: 1px;}
+    .poo{float: left;}
+    .saa{        width: 242px;
+        height: 19px;
+        background-color: white;}
+        .shin{    height: 35px;
+            background-color: white;
+            border-radius: 5px;}
+            input{    height: 20px;
+                background-color: white;
+                border-radius: 5px;
+            float: none;}

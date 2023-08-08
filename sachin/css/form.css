@@ -48,10 +48,12 @@ div{width:400px;
         display: block;
         height: 43px;
     margin: 1px;}
-    .poo{float: left;}
+    .poo{text-shadow: 2px 2px 6px rgb(19, 2, 255);
+        font-family: serif;}
     .saa{        width: 242px;
         height: 19px;
-        background-color: white;}
+        background-color: white;
+        font-family: serif;}
         .shin{    height: 35px;
             background-color: white;
             border-radius: 5px;}
@@ -59,3 +61,7 @@ div{width:400px;
                 background-color: white;
                 border-radius: 5px;
             float: none;}
+            p{text-shadow: 2px 2px 5px rgb(0, 253, 76);
+                font-family: serif;}
+            label{text-shadow: 2px 2px 5px red;
+            font-family: serif;}

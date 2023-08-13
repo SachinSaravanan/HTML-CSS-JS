@@ -36,7 +36,7 @@ display: inline-block;
        text-decoration: none;
      }
      li a:hover{    
-        color:red;
+        color:rgb(196, 7, 7);
      }
      input{
       height: 35px;
@@ -48,7 +48,8 @@ display: inline-block;
 
       nav{background-color: black;
       display: block;
-    height: 43px;}  
+    height: 43px;
+  text-align: center;}  
 
       form{
         float:right;
@@ -111,7 +112,34 @@ display: inline-block;
   
   .chan{background-color: red;}
    .Fri{width: 102px;
-  height: 90px;}
+  height: 90px;
+object-fit:contain;
+visibility: visible;
+border-radius: 50%;
+padding: 20px;
+}
+.topfixed{
+  background-color:white;
+  position: -webkit-sticky;
+  position: sticky;
+  top:0;
+  
+}
+.nani{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  position: relative;
+  height: 75px;
+}
+ion-icon{
+  height: 100px;
+}
+
+
     
 
 

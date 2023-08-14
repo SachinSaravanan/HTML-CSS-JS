@@ -21,8 +21,6 @@ display: inline-block;
      margin: 0px;
      padding:0;
      overflow: hidden;
-     display: inline-block;
-     
    }
      li{
        float: left; 
@@ -106,8 +104,10 @@ display: inline-block;
       margin:20px;
       background:red;
       }
-      a{text-decoration: none;
-       display: inline-block;}
+      .shin{text-decoration: none;
+       display: inline-block;
+       
+      }
        .nani{width: 730px;}
   
   .chan{background-color: red;}
@@ -138,10 +138,18 @@ padding: 20px;
 ion-icon{
   height: 100px;
 }
-
-
-    
-
+.sand a:visited{ color: rgb(255, 14, 54);
+  background-color: transparent;
+  text-decoration: none;
+}
+ 
+.mug{color:rgb(14, 11, 11) ;
+display: flex;
+width: 30px;}
+.poo{margin: 8px;
+background-color: rgb(255, 131, 29);
+height:30px;
+float: right;}
 
         
 

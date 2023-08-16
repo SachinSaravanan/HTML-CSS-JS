@@ -121,7 +121,7 @@ padding: 20px;
 .topfixed{
   background-color:white;
   position: -webkit-sticky;
-  position: sticky;
+/* position: sticky;*/
   top:0;
   
 }
@@ -147,11 +147,16 @@ ion-icon{
 display: flex;
 width: 30px;}
 .poo{margin: 8px;
-background-color: rgb(255, 131, 29);
+background-color:orange;
 height:30px;
 float: right;
-padding: 6px;}
-.fk{width: 65.6%;
+padding: 6px;
+border: 0px;}
+.fk-img{
+  float: left;
+  width: 60%;
+}
+.fk{width: 90.6%;
   -webkit-box-flex: 0;
   flex: 0 0 auto;
   margin-bottom: 0;
@@ -160,6 +165,9 @@ padding: 6px;}
     padding-left: 15px;
     padding-right: 15px;;
     float: left;
+    margin: 29px;
+    padding: 19px;
+    font-size: 27px;
 }
 .oo{width: 10spx;
   
@@ -181,10 +189,30 @@ span{color: rgb(47, 7, 247);}
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 0;
+  margin: 17px;
   }
   .sad{    box-sizing: border-box;
     -webkit-font-smoothing: antialiased;}
     main{display: block;}
+    p{font-size: 8px;}
+    .mad{    height: 48px;
+      width: 147px;
+      background-color: orange;
+    border: 0px;}
+    .sk-img{    width: 90.6%;
+      -webkit-box-flex: 0;
+      flex: 0 0 auto;
+      margin-bottom: 0;
+      position: relative;
+      min-height: 1px;
+      padding-left: 15px;
+      padding-right: 15px;
+      float: left;
+      margin: 29px;
+      padding: 19px;
+      font-size: 27px;}
+      .sk{float:left;
+      width: 60%;}
         
 
     

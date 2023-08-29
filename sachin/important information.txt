@@ -1,0 +1,11 @@
+1. css position
+css.display
+css.pseudo class
+css.pseudo elment
+css.selector
+css.Z index
+css.opacity
+display:none vs  visibility:hidden
+css.inline&block
+css.first preference:Inline,id,class,elment
+css > ~ + specific examples

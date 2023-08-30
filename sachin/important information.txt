@@ -1,4 +1,4 @@
-1. css position
+1. css position  top ,left 
 css.display
 css.pseudo class
 css.pseudo elment
@@ -8,4 +8,4 @@ css.opacity
 display:none vs  visibility:hidden
 css.inline&block
 css.first preference:Inline,id,class,elment
-css > ~ + specific examples
+css > ~ + =|^$* specific examples

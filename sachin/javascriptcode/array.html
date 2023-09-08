@@ -87,10 +87,10 @@ document.getElementById("eo").innerHTML = x;
 </script>
  <h2>Using Replace</h2>
 
-<button class="sand" onclick="myFuntion()">Try it</button>
+<button class="sand" onclick="myFun10()">Try it</button>
 <h2 id="cock">Sachin Rao</h2>
 <script>
-function myFunction(){
+function myFun10(){
 let text=document.getElementById("cock").innerHTML;
 document.getElementById("cock").innerHTML=text.replace("Rao","Tendulkar");
 }
@@ -99,17 +99,30 @@ document.getElementById("cock").innerHTML=text.replace("Rao","Tendulkar");
 <h1>JavaScript String Methods</h1>
 <p>Replace "Microsoft" with "W3Schools" in the paragraph below:</p>
 
-<button onclick="myFunction()">Try it</button>
+<button class="dd" onclick="myFunction5()">Try it</button>
 
-<p id="demo">Please visit Microsoft!</p>
-
+<p id="vv">Please visit Microsoft!</p>
 <script>
-function myFunction() {
-  let text = document.getElementById("demo").innerHTML;
-  document.getElementById("demo").innerHTML =
+function myFunction5() {
+  let text = document.getElementById("vv").innerHTML;
+  document.getElementById("vv").innerHTML =
   text.replace("Microsoft","W3Schools");
 }
 </script>
+<h2>using sort random numbers</h2>
+<button class="van" onclick="myfunction2()">Try it</button>
+<p id="sss"></p>
+
+<script>
+const points = [40, , 1, 5,];
+document.getElementById("sss").innerHTML = points;  
+
+function myfunction2() {
+  points.sort(function(){return 0.2 - Math.random()});
+  document.getElementById("sss").innerHTML = points;
+}
+</script>
+
     
     
 

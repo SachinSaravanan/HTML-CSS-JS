@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/array.css">
     <script src="./script/array.js"></script>
     <title></title>
-</head>
+<!-- </head>
 <syle>
 
 </syle>
@@ -52,12 +52,12 @@
    <script>
 
     
-   </script>
+   </script> -->
 
 
 <p id="eo"></p>
 
-<script>
+<!-- <script>
 let a = 3;
  x = (100 + 50) * a;
 document.getElementById("eo").innerHTML = x;
@@ -76,11 +76,11 @@ document.getElementById("eo").innerHTML = x;
  function displayDate(){
     document.getElementById("gens").innerHTML=Date();
  }
-</script>
+</script>  -->
 <p id="gens"></p>
 <h2>using string methods</h2>
 <h2 id="duck"></h2>
-<script>
+<!-- <script>
    let text="sachinnnnnnn"
    let length=text.length;
    document.getElementById("duck").innerHTML=text.length;
@@ -94,47 +94,178 @@ function myFun10(){
 let text=document.getElementById("cock").innerHTML;
 document.getElementById("cock").innerHTML=text.replace("Rao","Tendulkar");
 }
-</script>
+// </script> -->
 
-<h1>JavaScript String Methods</h1>
-<p>Replace "Microsoft" with "W3Schools" in the paragraph below:</p>
+// <h1>JavaScript String Methods</h1>
+// <p>Replace "Microsoft" with "W3Schools" in the paragraph below:</p>
 
-<button class="dd" onclick="myFunction5()">Try it</button>
+// <button class="dd" onclick="myFunction5()">Try it</button>
 
-<p id="vv">Please visit Microsoft!</p>
+// <p id="vv">Please visit Microsoft!</p>
+// <script>
+// function myFunction5() {
+//   let text = document.getElementById("vv").innerHTML;
+//   document.getElementById("vv").innerHTML =
+//   text.replace("Microsoft","W3Schools");
+// }
+// </script>
+// <h2>using sort random numbers</h2>
+// <button class="van" onclick="myfunction2()">Try it</button>
+// <p id="sss"></p>
+
+// <script>
+// const points = [40, , 1, 5,];
+// document.getElementById("sss").innerHTML = points;  
+
+// function myfunction2() {
+//   points.sort(function(){return 0.2 - Math.random()});
+//   document.getElementById("sss").innerHTML = points;
+// }  -->
+//  </script>
+// <p>A time-based greeting:</p>
+// <p id="minota"></p>
+// <script>
+//    const time = new Date().getHours();
+//    var greeting ='';
+//    console.log(time)
+//    if (time < 12) {
+//       greeting="Have a nice day";
+//       console.log(time)
+//    }   else if(time < 20){
+//       greeting="good afternoon";
+//       console.log(time)
+//    }   else{
+//       greeting="good evening";
+//       console.log(time)
+//    }
+//   document.getElementById("minota").innerHTML= greeting; 
+// console.log("gujgbjvgb"+greeting)
+//  </script> 
+<p id="naruto"></p>
 <script>
-function myFunction5() {
-  let text = document.getElementById("vv").innerHTML;
-  document.getElementById("vv").innerHTML =
-  text.replace("Microsoft","W3Schools");
-}
-</script>
-<h2>using sort random numbers</h2>
-<button class="van" onclick="myfunction2()">Try it</button>
-<p id="sss"></p>
+// const txt='{"name":"sachin","age":20,"city":"Bengalore"}'
+// const obj=JSON.parse(txt);
 
-<script>
-const points = [40, , 1, 5,];
-document.getElementById("sss").innerHTML = points;  
+// document.getElementById("naruto").innerHTML= obj.name + ", " + obj.age;
 
-function myfunction2() {
-  points.sort(function(){return 0.2 - Math.random()});
-  document.getElementById("sss").innerHTML = points;
-}
-</script>
+// </script> 
 
     
+ <h2>Creating an Object from a JSON String</h2>
+
+<p id="Remo"></p>
+
+<!-- <script>
+// const txt = '{"name":"sachin", "birth":"2003-07-08", "city":"New York"}';
+// console.log(txt)
+//  const obj = JSON.parse(txt, function (key,value) {
+//  if(key=="birth"){
+// return new Date(value); 
+// } else {
+//   return value;
+//  }
+//  });
+//  document.getElementById("Remo").innerHTML=obj.name+","+obj.birth;
+//  </script> -->
+<!-- <h2>Convert a string into a function.</h2>
+<script>
+   const txt = '{"name":"sachin", "birth":"2003-07-08", "city":"New York"}';
+   const obj = JSON.parse(text)
+ 
+   document.getElementById("sumo").innerHTML=obj.name+","+obj.birth;
+   </script>-->
+   <p id="Warm"></p>
+   <script> 
+   // Storing data:
+//    const myobject ={name:"sachin",age:"20",city:"Bengaluru"};
+//    const myJSON=JSON.stringify(myobject);
+//    localStorage.setItem("testJSON",myJSON);
+//    console.log(myJSON);
+//    <!-- Retrieving -->
+//      // Retrieving data:
+// let txt = localStorage.getItem("testJSON");
+// let obj = JSON.parse(txt);
+// document.getElementById("Warm").innerHTML = obj.name;
+
+// //  </script>
+<!-- // //   <h2 id="full">Day 2:Assignment!</h2>
+// //   <script>
+// //    let navy;
+// //    function sachin(number){
+// //     if(number>0){
+// //     console.log("The Number is Positive.");
+// //     }else if(number<0){
+// //        console.log("The number is Negative.");
+   
+// //     } else {
+// //     console.log("The number is Zero.");
     
+// //     }
+// //    }
+// //  document.getElementById("full").innerHTML=navy;
+// //  sachin(10);
+// //  sachin(-10);
+// //  sachin(0); 
+// </script> -->
+ <!-- <h2>Assignment 1</h2>
+<p id="smith"></p>
+ <script>
+var fruits=[ "apple", "banana", "orange"];
+fruits.shift("apple");
+fruits.push("grape");
+fruits[1]="pear";
+console.log(fruits)
+// add an elemnt:
+document.getElementById("smith").innerHTML  = fruits;
+</script>   -->
+<!-- <h2>Day1:Object Operations</h2>
+<p id ="god"></p>
+<script>
+var person={
+   name:"sachin",
+   age:20,
+   city:"bangalore"
+};
+delete person.age;
+person.job="Engineer";
+person.city="San Franciso";
+console.log(person);
+
+document.getElementById("god").innerHTML=person;
+</script> -->
+ <h2>Day1:array called cars</h2>
+<p id="wit"></p>
+<script>
+   for(let i=0;i<3;i++){
+let car=
+   [{ make:"Toyoto",
+   model:"Civic",
+   year:2018,
+},
+{ make:"volvo",
+   model:"Civic",
+   year:2018,
+},
+{ make:"jaguars",
+   model:"Civic",
+   year:2018,
+}]
 
 
 
-
-
-
-
-
-
-
+cars.push(car);
+}
+if(cars.length > 0){
+  cars.shift();   
+}
+let newCar1 = [{
+  make: "Honda",
+  model: "Civic",
+  year: 2020
+}];
+cars.push(newCar1);
+document.getElementById("wit").innerHTML=cars;
+</script> 
 
 
 

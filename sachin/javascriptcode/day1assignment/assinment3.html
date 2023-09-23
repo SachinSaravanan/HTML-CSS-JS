@@ -1,0 +1,29 @@
+ <h2>Day1:array called cars</h2>
+<p id="wit"></p>
+<script>
+   for(let i=0;i<3;i++){
+var cars=
+   [{ make:"Toyoto",
+   model:"Civic",
+   year:2018,
+},
+{ make:"volvo",
+   model:"Civic",
+   year:2018,
+},
+{ make:"jaguars",
+   model:"Civic",
+   year:2018,
+}];
+}
+cars.shift("Toyoto");
+cars.push({ make: "Honda",
+  model: "Civic",
+  year: 2020});
+  if(cars.length>=2){
+   cars[1].model="Accord";
+  }
+  console.log(cars)
+document.getElementById("wit").innerHTML=cars;
+
+</script>  

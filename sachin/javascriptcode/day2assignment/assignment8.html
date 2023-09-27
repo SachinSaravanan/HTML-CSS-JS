@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <p id="sachin"></p>   
+<script>
+function isPerfectNumber(num) {
+  if (num <= 0) {
+    return false; // Perfect numbers are positive integers only.
+  }
+
+  let sumOfDivisors = 0;
+
+  for (let i = 1; i <= num / 2; i++) {
+    if (num % i === 0) {
+      sumOfDivisors += i;
+    }
+  }
+
+  return sumOfDivisors === num;
+}
+
+// Test the function
+const numberToCheck = 28; // Example perfect number
+if (isPerfectNumber(numberToCheck)) {
+  console.log(numberToCheck + " is a perfect number.");
+} else {
+  console.log(numberToCheck + " is not a perfect number.");
+}
+document.getElementById("sachin").innerHTML=(numberToCheck)
+</script>
+</body>
+</html>

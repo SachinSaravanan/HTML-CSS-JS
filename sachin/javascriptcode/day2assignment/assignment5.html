@@ -1,40 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
 
-    
+
     <script>
         function printPrimesUpToN(n) {
-            // Create an array to track prime numbers
-            const isPrime = new Array(n + 1).fill(true);
-    
-            // 0 and 1 are not prime numbers
-            isPrime[0] = isPrime[1] = false;
-    
-            // Mark non-prime numbers
-            for (let i = 2; i * i <= n; i++) {
-                if (isPrime[i]) {
+
+            // Create an array to store whether each number is prime or not
+
+            const Prime = new Array(n + 1).fill(true);
+
+
+
+            // 0 and 1 are not prime
+
+            Prime[0] = Prime[1] = false;
+
+            // Loop from 2 to the square root of n
+
+            for (let i = 1; i <= Math.sqrt(n); i++) {
+
+                // If isPrime[i] is true, mark all multiples of i as not prime
+
+                if (Prime[i]) {
+
                     for (let j = i * i; j <= n; j += i) {
-                        isPrime[j] = false;
+
+                        Prime[j] = false;
+
                     }
+
                 }
+
             }
-    
-            // Print prime numbers
+
+            // Print the prime numbers
+
             for (let i = 2; i <= n; i++) {
-                if (isPrime[i]) {
+
+                if (Prime[i]) {
+
                     console.log(i);
+
                 }
+
             }
+
         }
-    
-        // Example usage:
-        printPrimesUpToN(30);
+        
+        const n = 30; // Change this to the desired positive integer
+
+        printPrimesUpToN(n);
     </script>
 </body>
+
 </html>

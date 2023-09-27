@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>The Number of vowels in this string:</h2>
+    <p id="demo"></p>
+    <script>
+        function countVowels(str) {
+
+            var vowel = "a,e,i,o,u";    // Convert the string to lowercase to make it case-insensitive
+
+            str = str.toLowerCase();
+
+            let vowelCount = 0;     // Initialize a variable to keep track of the vowel count
+
+            // Loop through each character in the string
+
+            for (let i = 0; i < str.length; i++) {
+
+                // Check if the current character is a vowel
+
+                if (str[i] === 'a' || str[i] === 'e' || str[i] === 'i' || str[i] === 'o' || str[i] === 'u') {
+
+                    vowelCount++;
+
+                }
+
+            }
+
+            // Return the final vowel count
+
+            return vowelCount;
+
+        }
+
+        console.log(countVowels("I Love my India"));
+     document.getElementById("demo").innerHTML=countVowels
+    </script>
+</body>
+
+</html>

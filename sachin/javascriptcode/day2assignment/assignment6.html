@@ -9,16 +9,10 @@
     
 </body>
 </html>
-
-
-
-
-
-
-
-
+<h1>function calculate</h1>
+<p id="demo"></p>
 <script>
-
+    var sachin;
     function calculate(num1, num2, operator) {
         switch (operator) {
             case '+':
@@ -30,7 +24,7 @@
             case '/':
                 console.log(" division num2:"+num2);
                 console.log(" division num2:"+typeof(num2));
-                if (num2 !== 0) {
+                if (num2 === 0) {
                     return num1 / num2;
                 } else {
                     return "Division by zero is not allowed";
@@ -44,11 +38,12 @@
 
 
     }
+document.getElementById("demo").innerHTML=(5-2);
    //example usage:
- console.log(calculate(5, '3', '/')); // Output: 8
-console.log(calculate(5, 'hhg', '/')); // Output: 2
-console.log(calculate(5, 3, '*')); // Output: 15
-console.log(calculate(5, 0, '/')); // Output: Division by zero is not allowed
-console.log(calculate(5, 3, '%')); // Output: Invalid operator 
+ //console.log(calculate(5, '3', '/')); // Output: 8
+//console.log(calculate(5, 'hhg', '/')); // Output: 2
+// console.log(calculate(5, 3, '*')); // Output: 15
+// console.log(calculate(5, 0, '/')); // Output: Division by zero is not allowed
+// console.log(calculate(5, 3, '%')); // Output: Invalid operator 
 
 </script>

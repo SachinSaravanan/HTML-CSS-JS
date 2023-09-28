@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Fibonacci series </h1>
+    <p id="sachin"></p>
+    <script>
+        function Fibonacciseries(n) {
+            let fib = [0, 1]; //Intialize the Fibonacci series with the first two numbers
+            for (let i = 2; fib[i - 1] + fib[i - 2] <= n; i++) {
+                fib[i] = fib[i - 1] + fib[i - 2];
+            }
+
+            for (let i = 0; i < fib.length; i++) {
+                document.write(fib[i] + "");
+            }
+
+        }
+
+        const numberToPrintUpTo = 50;
+        document.write("Fibonacci series up to" + numberToPrintUpTo + ":")
+        // printFibonacciSeries(numberToPrintUpTo);
+    </script>
+</body>
+
+</html>

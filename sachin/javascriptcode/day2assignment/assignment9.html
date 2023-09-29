@@ -11,7 +11,7 @@
     <h1>Fibonacci series </h1>
     <p id="sachin"></p>
     <script>
-        function Fibonacciseries(n) {
+        function printFibonacciSeries(n) {
             let fib = [0, 1]; //Intialize the Fibonacci series with the first two numbers
             for (let i = 2; fib[i - 1] + fib[i - 2] <= n; i++) {
                 fib[i] = fib[i - 1] + fib[i - 2];
@@ -21,11 +21,11 @@
                 document.write(fib[i] + "");
             }
 
-        }
+        }//  0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181.
 
         const numberToPrintUpTo = 50;
-        document.write("Fibonacci series up to" + numberToPrintUpTo + ":")
-        // printFibonacciSeries(numberToPrintUpTo);
+        document.write("Fibonacci series up to" + numberToPrintUpTo + ":");
+         printFibonacciSeries(numberToPrintUpTo);
     </script>
 </body>
 

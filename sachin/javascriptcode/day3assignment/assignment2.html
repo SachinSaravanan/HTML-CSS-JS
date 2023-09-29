@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Names</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Indian names</h1>
+    <div id="name-display"></div>
+    <button id="previous-button">Previous</button>
+    <button id="next-button">Next</button>
+    <script>
+        const names = ["Aarav", "Sanya", "Sachin", "Preethi", "Rohan", "Priya", "Amit", "Meera", "Rajiv", "Ananya"];
+        let currentIndex = 0;
+        const nameDisplay = document.getElementById("name-display");
+        const previousButton = document.getElementById("previous-button");
+        const nextButton = document.getElementById("next-button");
+        // Function to update the displayed name
+        function updateName() {
+            nameDisplay.textContent = names[currentIndex];
+        }
+        // Initial display
+        updateName();
+        // Next button functionality
+        nextButton.addEventListener("click", () => {
+            currentIndex = (currentIndex + 1) % names.length;
+            updateName();
+        });
+        // Previous button functionality
+        previousButton.addEventListener("click", () => {
+            currentIndex = (currentIndex - 1 + names.length) % names.length;
+            updateName();
+        });
+
+    </script>
+</body>
+
+</html>
